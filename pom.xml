@@ -13,12 +13,7 @@
 	<name>mediclaim</name>
 	<description>Demo project for Spring Boot</description>
 		
-	<properties>
-           <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-           <sonar.host.url>http://20.187.65.5:9000</sonar.host.url>
-           <sonar.login>admin</sonar.login>
-           <sonar.password>admin123</sonar.password>
-        </properties>
+	
 
 	<dependencies>
 		<dependency>
@@ -116,11 +111,7 @@
 	</distributionManagement>
 	<reporting>
           <plugins>
-          <plugin>
-              <groupId>org.owasp</groupId>
-              <artifactId>dependency-check-maven</artifactId>
-              <version>6.2.2</version>
-          </plugin>
+          
           </plugins>
         </reporting>
 	<build>
